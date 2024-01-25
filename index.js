@@ -14,7 +14,3 @@ document.addEventListener("DOMContentLoaded", function () {
     section.classList.add("slide-up");
   }, 12000);
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-  const section = document.getElementById("main-section");
-});
