@@ -26,7 +26,6 @@ section {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  height: 100vh;
   height: 100dvh;
   padding-inline-start: 8rem;
 
@@ -52,8 +51,9 @@ section {
     gap: 12px;
 
     .skip {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       font-weight: 500;
+      letter-spacing: 0.75px;
       line-height: 1;
       overflow: hidden;
       position: relative;
@@ -98,7 +98,7 @@ section {
   }
 }
 
-h1 {
+.heading-main {
   background: linear-gradient(90deg, #c6ffdd, #fbd786, #ff0000);
   background-clip: text;
   -webkit-background-clip: text;
@@ -112,8 +112,7 @@ h1 {
   gap: 8px;
 
   img {
-    height: 3.2rem;
-    width: 3.2rem;
+    width: 5.2rem;
     display: block;
   }
 }
